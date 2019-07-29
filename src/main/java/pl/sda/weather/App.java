@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import pl.sda.weather.model.Weather;
 
 //todo zaimplementować pogodę z innego projektu,aby działało w javafx
 
@@ -20,5 +21,6 @@ public class App extends Application
         Parent root = FXMLLoader.load(getClass().getResource("/root.fxml"));
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
+
     }
 }
